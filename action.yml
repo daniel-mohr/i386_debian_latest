@@ -1,0 +1,13 @@
+# action.yml
+name: 'run_script'
+description: 'run script on the docker image i386/debian:latest'
+inputs:
+  cmdfile:
+    description: 'file to run'
+    required: true
+    default: 'do'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.cmdfile }}
