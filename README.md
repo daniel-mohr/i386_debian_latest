@@ -17,7 +17,7 @@ For an example script, you can look at a trivial example [do](do).
 The script is used directly from your repository and run on the root
 of your repository.
 
-## example useage
+## example usage
 
 ```
 name: example
