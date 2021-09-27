@@ -6,7 +6,9 @@ This github action let you run a script/file inside the docker image
 I will not maintain this repository. If you like it, please fork it and use
 your own fork! This repository may break once!
 
+
 ## inputs
+
 
 ### `cmdfile`
 
@@ -16,6 +18,7 @@ For an example script, you can look at a trivial example [do](do).
 
 The script is used directly from your repository and run on the root
 of your repository.
+
 
 ## example usage
 
@@ -41,6 +44,16 @@ jobs:
         with:
           cmdfile: script_to_run
 ```
+
+
+## repositories using this github action
+
+I use this github action `daniel-mohr/i386_debian_latest@v0` in a few
+projects:
+
+  * [check_my_github_actions](https://github.com/daniel-mohr/check_my_github_actions)
+  * [listing of numpy dtypes](https://github.com/daniel-mohr/list_numpy_dtypes)
+
 
 ## copyright + license
 
